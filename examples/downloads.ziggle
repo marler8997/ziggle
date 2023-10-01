@@ -1,0 +1,16 @@
+{{ const downloads_heading = "Releases"; }}
+{{ const downloads_install_from_pkg_manager = "You can also <a href=\"https://github.com/ziglang/zig/wiki/Install-Zig-from-a-Package-Manager\"> install Zig from a package manager</a>."; }}
+{{ const downloads_json = "There is a <a href=\"https://ziglang.org/download/index.json\">JSON version of this page</a>."; }}
+{{ const downloads_minisig = "Files are signed with <a href=\"https://jedisct1.github.io/minisign/\">minisign</a> using this public key:"; }}
+
+
+<div class="container">
+  <h1>{{ @out(downloads_heading); }}</h1>
+  <p>{{ @out(downloads_install_from_pkg_manager); }}</p>
+  <p>{{ @out(downloads_json); }}</p>
+  <p>{{ @out(downloads_minisig); }}</p>
+  <pre><code>RWSGOq2NVecA2UPNdBUZykf1CCb147pkmdtYxgb3Ti+JO/wCYvhbAb/U</code></pre>
+  <div>
+  
+  </div>  
+</div>
